@@ -1,5 +1,5 @@
 import sys, os, ntpath
-from urllib import urlretrieve
+from urllib.request import urlretrieve
 
 fstrIn = sys.argv[1]
 file=open(fstrIn,'r')
